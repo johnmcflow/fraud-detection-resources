@@ -3,7 +3,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
-[![GitHub Stars](https://img.shields.io/github/stars/yourusername/fraud-detection-resources.svg)](https://github.com/yourusername/fraud-detection-resources/stargazers)
+[![GitHub Stars](https://img.shields.io/github/stars/johnmcflow/fraud-detection-resources.svg)](https://github.com/yourusername/fraud-detection-resources/stargazers)
 
 **Based on the technical presentation at BSides Querétaro 2025: "Termodinámica del Fraude"**
 
