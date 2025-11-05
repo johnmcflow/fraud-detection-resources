@@ -1408,7 +1408,7 @@ def lab_2_graph_fraud_detection():
 
 **Conecta con nosotros:**
 
--  **📧 Email**: diegos.ulloa13@gmail.com | juanm.g.cabrera@gmail.com
+-  **📧 Email**: diegos.sulloa13@gmail.com  | juanm.g.cabrera@gmail.com
 - **💼 LinkedIn**: https://www.linkedin.com/in/juan-m-gonz%C3%A1lez-4007b028/ | https://www.linkedin.com/in/diego-ulloa13/
 
 ---
