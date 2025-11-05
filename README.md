@@ -21,7 +21,7 @@
 - Understand threat actor TTPs and attribution
 - Deploy MLOps pipelines for fraud detection
 
-## 🎮 Interactive Quick Start
+## Interactive Quick Start
 
 Want to dive in immediately? Run our interactive setup:
 ```bash
