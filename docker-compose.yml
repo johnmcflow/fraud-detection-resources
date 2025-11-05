@@ -1,0 +1,21 @@
+version: '3.8'
+
+services:
+  fraud-api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./code:/app/code
+      - ./datasets:/app/datasets
+    
+  jupyter:
+    image: jupyter/scipy-notebook:latest
+    ports:
+      - "8888:8888"
+    volumes:
+      - ./:/home/jovyan/work
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
