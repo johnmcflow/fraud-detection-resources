@@ -11,6 +11,8 @@
 
 **Based on the technical presentation at BSides Querétaro 2025: "Termodinámica del Fraude"**
 
+
+
 ## What you'll learn
 
 - Build production-ready fraud detection systems from scratch
@@ -18,6 +20,45 @@
 - Implement real-time detection APIs
 - Understand threat actor TTPs and attribution
 - Deploy MLOps pipelines for fraud detection
+
+## 🎮 Interactive Quick Start
+
+Want to dive in immediately? Run our interactive setup:
+```bash
+git clone https://github.com/johnmcflow/fraud-detection-resources.git
+cd fraud-detection-resources
+python quick_start.py
+```
+
+This will:
+- ✅ Check your environment
+- 📦 Install missing packages  
+- 🚀 Let you try examples instantly
+- 📚 Guide you through next steps
+
+## 🏆 What makes this special?
+
+- **🎯 Complete learning path**: 52 weeks structured roadmap
+- **💻 Working code**: Copy-paste ready examples  
+- **📊 Real datasets**: Preprocessed and ready to use
+- **🧠 Latest research**: Curated papers with summaries
+- **🚀 Production ready**: Deploy APIs and MLOps pipelines
+- **🌎 Community driven**: Based on BSides Querétaro 2025
+
+## Quick start
+```bash
+# Clone the repository
+git clone https://github.com/johnmcflow/fraud-detection-resources.git
+cd fraud-detection-resources
+
+# Setup environment
+conda create -n fraud-detection python=3.9
+conda activate fraud-detection
+pip install -r requirements.txt
+
+# Run your first fraud detector
+python code/examples/basic_fraud_detector.py
+```
 
 ## De zero a hero en detección de fraude y análisis de ciberactores
 
