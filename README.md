@@ -4,6 +4,10 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](CONTRIBUTING.md)
 [![GitHub Stars](https://img.shields.io/github/stars/johnmcflow/fraud-detection-resources.svg)](https://github.com/johnmcflow/fraud-detection-resources/stargazers)
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/johnmcflow/fraud-detection-resources/graphs/commit-activity)
+[![Last Commit](https://img.shields.io/github/last-commit/johnmcflow/fraud-detection-resources)](https://github.com/johnmcflow/fraud-detection-resources)
 
 **Based on the technical presentation at BSides Querétaro 2025: "Termodinámica del Fraude"**
 
