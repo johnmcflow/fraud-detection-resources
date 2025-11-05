@@ -31,10 +31,10 @@ python quick_start.py
 ```
 
 This will:
-- ✅ Check your environment
-- 📦 Install missing packages  
-- 🚀 Let you try examples instantly
-- 📚 Guide you through next steps
+- Check your environment
+- Install missing packages  
+- Let you try examples instantly
+- Guide you through next steps
 
 ## What makes this special?
 
