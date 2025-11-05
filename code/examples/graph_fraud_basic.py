@@ -48,7 +48,7 @@ def analyze_fraud_patterns(G):
     print("=" * 40)
     
     # Basic graph statistics
-    print(f"📊 Graph Statistics:")
+    print(f"Graph Statistics:")
     print(f"   Nodes: {G.number_of_nodes()}")
     print(f"   Edges: {G.number_of_edges()}")
     print(f"   Density: {nx.density(G):.4f}")
@@ -58,7 +58,7 @@ def analyze_fraud_patterns(G):
     total_edges = G.number_of_edges()
     fraud_rate = len(fraud_edges) / total_edges
     
-    print(f"\n💰 Fraud Statistics:")
+    print(f"\nFraud Statistics:")
     print(f"   Total transactions: {total_edges}")
     print(f"   Fraudulent transactions: {len(fraud_edges)}")
     print(f"   Fraud rate: {fraud_rate:.3f}")
@@ -76,7 +76,7 @@ def analyze_fraud_patterns(G):
     
     # Top fraudulent users
     top_fraud_users = sorted(user_fraud_counts.items(), key=lambda x: x[1], reverse=True)[:5]
-    print(f"\n🚨 Top Fraudulent Users:")
+    print(f"\nTop Fraudulent Users:")
     for user, count in top_fraud_users:
         risk_score = G.nodes[user]['risk_score']
         print(f"   {user}: {count} fraud transactions (risk: {risk_score:.3f})")
@@ -137,7 +137,7 @@ def main():
     # Detect communities
     detect_fraud_communities(G)
     
-    print(f"\n✅ Graph analysis completed!")
+    print(f"\nGraph analysis completed!")
     print("💡 Next: Try with real transaction datasets for deeper insights")
 
 if __name__ == "__main__":
