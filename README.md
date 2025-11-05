@@ -1,4 +1,4 @@
-# Fraud Detection Resources
+# Fraud detection resources
 *Comprehensive learning path from zero to hero in anti-fraud systems*
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
