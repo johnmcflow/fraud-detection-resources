@@ -42,11 +42,11 @@ def load_sample_data():
 
 def main():
     """Run basic fraud detection example"""
-    print("🛡️  Basic Fraud Detection Example")
+    print("Basic Fraud Detection Example")
     print("=" * 40)
     
     # Load data
-    print("📊 Loading sample data...")
+    print("Loading sample data...")
     df = load_sample_data()
     print(f"Dataset shape: {df.shape}")
     print(f"Fraud rate: {df['is_fraud'].mean():.3f}")
@@ -74,7 +74,7 @@ def main():
     y_pred = rf.predict(X_test)
     y_pred_proba = rf.predict_proba(X_test)[:, 1]
     
-    print("\n📈 Results:")
+    print("\nResults:")
     print("-" * 20)
     print(f"ROC-AUC: {roc_auc_score(y_test, y_pred_proba):.4f}")
     print("\nClassification Report:")
@@ -89,7 +89,7 @@ def main():
     print("\n🔍 Top Features:")
     print(feature_importance.head())
     
-    print("\n✅ Example completed successfully!")
+    print("\nExample completed successfully!")
     print("Next steps: Try with real datasets from datasets/ folder")
 
 if __name__ == "__main__":
